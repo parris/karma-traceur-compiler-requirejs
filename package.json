@@ -1,0 +1,31 @@
+{
+  "name": "karma-traceur-compiler-requirejs",
+  "version": "0.0.1",
+  "description": "A Karma plugin. Include the traceur compiler on the page",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parris/karma-traceur-compiler.git"
+  },
+  "keywords": [
+    "karma-plugin",
+    "karma-framework",
+    "traceur",
+    "es6"
+  ],
+  "author": {
+    "name": "Parris Khachi",
+    "email": "parris@letswoosh.com"
+  },
+  "peerDependencies": {
+    "karma": ">=0.11.14",
+    "traceur": ">=0.0.60"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-npm": "~0.0.2",
+    "grunt-bump": "~0.0.7",
+    "grunt-auto-release": "~0.0.2"
+  }
+}
